@@ -12,3 +12,5 @@ Quiz 1
   public static void main(String[] args) {
     System.out.println("Derick Cruz");
   }
+  
+BONUS Q: Coding Colorblind in Yellow
