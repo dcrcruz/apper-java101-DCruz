@@ -1,3 +1,5 @@
+//this is your Homework(part 1) output
+
 import java.util.Scanner;
 
 class Prime {
