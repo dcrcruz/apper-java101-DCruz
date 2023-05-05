@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class OddEven {
+public class HW3 {
  public static void main(String[] args)
  {
     int[] nums = {1, 234, 2, 4, 56, 17, 50, 1235, 6, 1, 23, 48, 47, 34};
