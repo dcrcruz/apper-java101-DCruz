@@ -30,6 +30,7 @@ public class Datatypes {
         // postfix vs prefix ++
         System.out.println(c++ + " " + ++a); //postfix - did not add, prefix, already added (output 78 10)
         System.out.println(c); // output 79 from postfix
-
+        
     }
+
 }
