@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class PrimeNumberV2 {
         public static void main(String[] args) {
-            //input range: 1 - 10_000_000
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Enter a number to check if it is a prime number: ");
-            long number = sc.nextInt();
-            if(number >= 10000000) {
-                System.out.println(number + " is not within the range of accepted values");
-            }
+            try (//input range: 1 - 10_000_000
+            Scanner sc = new Scanner(System.in)) {
+                System.out.println("Enter a number to check if it is a prime number: ");
+                long number = sc.nextInt();
+                if(number >= 10000000) {
+                    System.out.println(number + " is not within the range of accepted values");
+                }
 
-            //call method
-            if (isPrime(number)) {
-                System.out.println(number + " is a prime number");
-            } else {
-                System.out.println(number + " is not a prime number");
+                //call method
+                if (isPrime(number)) {
+                    System.out.println(number + " is a prime number");
+                } else {
+                    System.out.println(number + " is not a prime number");
+                }
             }
-
             //check speed
             long startTime = System.nanoTime();
             long endTime = System.nanoTime();
