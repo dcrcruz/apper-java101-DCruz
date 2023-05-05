@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeNumberv2 {
+public class PrimeNumberV2 {
         public static void main(String[] args) {
             //input range: 1 - 10_000_000
             Scanner sc = new Scanner(System.in);
