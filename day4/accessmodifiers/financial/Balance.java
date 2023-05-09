@@ -1,7 +1,7 @@
 package day4.accessmodifiers.financial;
 
 public class Balance {
-    public int amount;
+    private int amount;
 
     public int getBalance() {
         return amount;
