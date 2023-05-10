@@ -1,4 +1,4 @@
-package day4.flight;
+package day4.Scratch.flight;
 
 public class Flight {
     int seats;

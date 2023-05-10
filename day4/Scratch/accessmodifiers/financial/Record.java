@@ -1,4 +1,4 @@
-package day4.accessmodifiers.financial;
+package day4.Scratch.accessmodifiers.financial;
 
 public class Record {
     void displayBalance() {

@@ -1,7 +1,8 @@
-package day4.accessmodifiers.financial;
+package day4.Scratch.accessmodifiers.financial;
 
 public class Balance {
-    private int amount;
+    public int amount;
+    public int setAmount;
 
     public int getBalance() {
         return amount;

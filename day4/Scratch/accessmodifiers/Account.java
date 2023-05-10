@@ -1,6 +1,6 @@
-package day4.accessmodifiers;
+package day4.Scratch.accessmodifiers;
 
-import accessmodifiers.financial.Balance;
+import day4.Scratch.accessmodifiers.financial.Balance;
 
 public class Account {
     void displayBalance() {
