@@ -19,7 +19,7 @@ public class miniGcash {
         // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
 
-        //header
+        //headers
         System.out.println("***** miniGCash *****");
         System.out.println("**Register an account**");
 
