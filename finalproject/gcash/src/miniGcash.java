@@ -21,7 +21,8 @@ public class miniGcash {
 
         //header
         System.out.println("***** miniGCash *****");
-        System.out.println("**Register an account**");
+        System.out.println("***");
+        System.out.println("*** Register an account ***");
 
         // Register users
         while (true) {
