@@ -104,30 +104,30 @@ public class miniGcash {
     }
 }
 
-class User {
-    private String name;
-    private String mobileNumber;
-    private double balance;
+// class User {
+//     private String name;
+//     private String mobileNumber;
+//     private double balance;
 
-    public User(String name, String mobileNumber, double balance) {
-        this.name = name;
-        this.mobileNumber = mobileNumber;
-        this.balance = balance;
-    }
+//     public User(String name, String mobileNumber, double balance) {
+//         this.name = name;
+//         this.mobileNumber = mobileNumber;
+//         this.balance = balance;
+//     }
 
-    public String getName() {
-        return name;
-    }
+//     public String getName() {
+//         return name;
+//     }
 
-    public String getMobileNumber() {
-        return mobileNumber;
-    }
+//     public String getMobileNumber() {
+//         return mobileNumber;
+//     }
 
-    public double getBalance() {
-        return balance;
-    }
+//     public double getBalance() {
+//         return balance;
+//     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-}
+//     public void setBalance(double balance) {
+//         this.balance = balance;
+//     }
+// }
